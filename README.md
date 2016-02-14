@@ -4,7 +4,7 @@
 
 This workflow serves as a starting point for building Angular 1.x applications using WebPack. Should be noted that apart from the pre-installed angular package, this workflow is pretty much generic.
 
-It is a direct port of the amazing [react workflow](https://github.com/cesarandreu/web-app) of [Cesar Andreu](https://github.com/cesarandreu). All the credits goes for him.
+It is a fork of the amazing [angular-webpack-workflow](https://github.com/preboot/angular-webpack) project, including angular 1.5, ui-router and an example of app (controller, template, routing, directive, stylesheet...).
 
 ## Features
 

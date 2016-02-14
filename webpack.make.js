@@ -32,7 +32,7 @@ module.exports = function makeWebpackConfig (options) {
     config.entry = {}
   } else {
     config.entry = {
-      app: './src/app.js'
+      app: './src/app/app.js'
     }
   }
 
@@ -109,6 +109,9 @@ module.exports = function makeWebpackConfig (options) {
       // Allow loading html through js
       test: /\.html$/,
       loader: 'raw'
+    },{
+      test: /\.scss$/,
+      loaders: ["style", "css", "sass"]
     }]
   };
 
